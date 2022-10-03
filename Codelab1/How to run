@@ -1,0 +1,5 @@
+To build: docker build -t [imagename] .
+To run: docker run -ti -v /tmp:/tmp [imagename] /bin/bash
+To find the created file:
+1. ls
+2. cat company.txt
