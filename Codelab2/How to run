@@ -1,0 +1,2 @@
+To build: docker build -t [ImageName] . 
+To run: docker run -p 8888:8888 [ImageName]
