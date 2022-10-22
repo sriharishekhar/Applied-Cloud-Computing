@@ -15,3 +15,4 @@ def fetch_meal_surprise():
     response3 = json.loads(response2)
     return render_template('index.html', meal=response3[0][0], price=response3[0][1])
 app.run(host='0.0.0.0', port=os.environ.get("CONSUMER_PORT"))
+#app.run(host="0.0.0.0", port=os.environ.get("CONSUMER_PORT"), debug=True)
