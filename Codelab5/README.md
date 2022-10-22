@@ -16,7 +16,7 @@ To access:
 <img width="921" alt="Screen Shot 2022-10-22 at 2 44 02 AM" src="https://user-images.githubusercontent.com/52935613/197332704-fcea6c11-e96e-41ce-aa67-5c411b3603b4.png">
 - Keep the rest of the fields default.
 
-<img width="1314" alt="Screen Shot 2022-10-22 at 2 56 49 AM" src="https://user-images.githubusercontent.com/52935613/197333209-8dd3bc74-803d-44b2-838b-50b035e35a1b.png">
+<img width="1315" alt="Screen Shot 2022-10-22 at 2 58 03 AM" src="https://user-images.githubusercontent.com/52935613/197333238-e25434ff-780f-47c9-a5f8-5ed099c4077b.png">
 
 To insert an Entry into the database use the below SQL command.
 
