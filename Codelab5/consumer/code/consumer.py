@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/index')
 def fetch_meal_surprise():
     db_url = "http://{api_host}:{api_port}/surprise/".format(api_host = os.environ.get("API_HOST"),
-                                                                api_port = os.environ.get("API_PORT"))
+                                                             api_port = os.environ.get("API_PORT"))
     response1 = urlopen(db_url)
     response2 = response1.read()
     response3 = json.loads(response2)
